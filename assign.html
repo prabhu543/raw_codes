@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>about my city MANGALORE</title>
+    <style>
+    li{
+        list-style: none;
+    }
+    .college{ 
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      text-align: center;
+      color: red;
+      word-spacing: 10px;
+      text-transform: uppercase;
+      animation: blink 1.25s infinite;
+    
+    }
+    @keyframes blink {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+    .scrolling-text{
+      position: fixed;
+      top: 10;
+      left: 0;
+      text-align: right;
+      width: 100%;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 28px;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: scroll 15s  infinite;
+    }
+    @keyframes scroll {
+      from {
+        left: 0;
+      }
+      to {
+        left: -100%;
+      }
+    }
+</style>
+</head>
+<body>
+    <h1 style="color: blue; text-align: center;">MY CITY MANGALORE</h1>
+<li style="color: rgb(17, 212, 246); font-family: Arial, Helvetica, sans-serif; font-weight: 100;">Kateel Durga Parameshwari temple</li>
+<li style="color: rgb(223, 12, 174); font-family:'Times New Roman', Times, serif; font-weight: 50;"><i>Panambur beach</i></li>
+<li class="college" style="color:rgb(24, 4, 128);">canara engineering college bantwal</li>
+<li style="color: rgb(202, 153, 6); font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 10;">Thousand Piller temple</li>
+
+<p class="scrolling-text">Welcome to my web page</p>
+</body>
+</html>

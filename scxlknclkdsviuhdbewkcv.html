@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.container{
+position:relative;
+height:100%;
+width:100%;
+} 
+p.a{
+position:absolute;
+top:0px;
+left:0px;
+}
+p.b{
+left:50px;
+position:absolute;
+}
+p.c{
+left:100px;
+position:absolute;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<script type="text/javascript">
+toplayer="img3";
+function mousemove(totop){
+document.getElementById(toplayer).style.zIndex="0";
+document.getElementById(totop).style.zIndex="1";
+toplayer=totop;
+}
+</script>
+<p class="a" id="img1" onmouseOver="mousemove('img1');"><img src="img1.jpg" /></p>
+<p class="b" id="img2" onmouseOver="mousemove('img2');"><img src="D:\mangaladevi_temple.jpeg" /></p>
+<p class="c" id="img3" onmouseOver="mousemove('img3');"><img src="img3.jpg" /></p>
+
+</div>
+</body>
+</html>

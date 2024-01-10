@@ -1,0 +1,43 @@
+.main{
+background-color: aqua;
+border: 5px;
+height: 500px;
+width: 500px;
+box-shadow: 20px 20px 10px 10px red;
+overflow: scroll;
+}
+
+.ball{
+border-radius: 50%;
+height: 20px;
+width: 20px;
+background-color: rgb(6, 0, 0);
+}
+
+.ball:hover{
+background-color: rgb(251, 6, 99);
+border-color: black;
+margin-left: 50px;
+
+}
+.ball1{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(1, 23, 8);
+    }
+ .ball2{
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        background-color: rgb(9, 10, 0);
+        }
+    .ball1:hover{
+            background-color: rgb(6, 14, 251);
+            border-color: black;
+            margin-left: 50px;     
+     .ball2:hover{
+                background-color: rgb(240, 240, 240);
+            
+               margin-left: 50px;
+            }

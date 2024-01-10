@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.w{
+    position: relative;
+height: 500px;
+width: 500px;
+}
+.a{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.b{
+    position: absolute;
+
+    left:50px;
+}
+.c{
+    position: absolute;
+
+    left:100px;
+}
+    </style>
+</head>
+<body>
+    <div class="w">
+        <script>
+           topLayer="img3"; 
+           function onmousemove(toTop)
+           {
+document.getElementById(topLayer).style.zIndex="0";
+document.getElementById(toTop).style.zIndex="1";
+topLayer=toTop;
+           }
+        </script>
+        <p class="a " id="img1" onmouseOver=" onmousemove('img1');" ><img src="img1.jpg" style="height: 200px; width: 200px;"/></p>
+        <p class="b " id="img2"  onmouseOver=" onmousemove('img2');" ><img src="img2.jpg" style="height: 200px; width: 200px;" /></p>
+        <p class="c " id="img3"  onmouseOver=" onmousemove('img3');" ><img src="img3.jpg"  style="height: 200px; width: 200px;" /></p>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,13 @@
+.main{
+width: 150px;
+height: 150px;
+background-color: whitesmoke;
+position: relative;
+overflow: scroll;
+
+}
+.main1{
+    position: absolute;
+}
+
+

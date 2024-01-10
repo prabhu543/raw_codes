@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC " - //W3C//DTD//XHTML 1.0 Transitional//EN"
+"https://www.w3.org/TR/xhtml/DTD/xhtml-strict dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>table contents</title>
+<style>
+table{
+width:50%;
+border-collapse:collapse;
+}
+td,th{
+border:1px solid black;
+padding:10px;
+}
+</style>
+</head>
+<body>
+<table>
+<tr><th rowspan="9" style="background-color:lightblue">Department</th>
+<th rowspan="3" style="background-color:purple">sem1</th><td>sub1</td></tr>
+<tr><td>sub2</td></tr>
+<tr><td>sub3</td></tr>
+<tr><th rowspan="3"  style="background-color:purple">sem2</th><td>sub4</td></tr>
+<tr><td>sub5</td></tr>
+<tr><td>sub6</td></tr>
+<tr><th rowspan="3"  style="background-color:purple">sem3</th>
+<td>sub7</td></tr>
+<tr><td>sub8</td></tr>
+<tr><td>sub9</td></tr>
+</table>
+</body>
+</html>

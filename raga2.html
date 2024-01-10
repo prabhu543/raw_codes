@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Irregular Table</title>
+  <style>
+    table  {
+     border-collapse:collapse ;
+    }
+
+    tr, td {
+        border: 5px double black;
+      padding: 40px;
+	  text-align:center;
+   }
+   .td1{
+        width:10px;
+		}
+  </style>
+ <table>
+ <tr>
+<td rowspan=2>A</td>
+<td>B</td>
+<td colspan=3 rowspan=3 >D</td>
+<td colspan=5>E</td>
+<td colspan=2>F</td>
+    </tr>
+	<tr>
+	<td>C</td>
+	<td colspan=3 rowspan=2>G</td>
+	<td rowspan=2 >H</td>
+	<td class=td1 rowspan=2 colspan=2>I</td>
+    </tr>
+	<tr>
+	<td colspan=2>J</td>
+	</tr>
+	<tr>
+	<td colspan=5>K</td>
+	<td colspan=3>L</td>
+	<td colspan=3>M</td>
+	</tr>
+  </table>
